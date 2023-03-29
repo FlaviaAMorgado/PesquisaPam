@@ -66,6 +66,8 @@ https://blog.grancursosonline.com.br/os-tipos-primitivos-da-linguagem-java/
 
 https://www.devmedia.com.br/tipos-de-dados-por-valor-e-por-referencia-em-java/25293
 
+#### Condicional
+https://www.computersciencemaster.com.br/estruturas-condicionais-if-else-lacos-de-repeticao-while-for-em-java/
 
 
   
