@@ -45,7 +45,7 @@ Temos 2 subdivisões
  São utilizados para armazenar as localizações dos objetos da memória do computador. E dentro desses obejtos podem existir variáveis de instância e métodos. 
 Quando um objeto é atribuído para uma variável, aquela variável está na verdade associada a uma referência do objeto, e não ao objeto em si. Essa referência é o endereço de memória em que aquele objeto está localizado.
 
-##Tipos de dados: 
+##### Tipos de dados: 
   • Arrays; - Permite armazenar valores de um meso tipo em alocações de memória contínuas. São indenfrificados por índice de números inteiros, que começa do 0 e vai até n-1, onde *n* é o número de elementos disponíveis. Elementos do array devem conter o mesmo tipo de dados. o Array é um tipo de dado de referência pois ele é uma classe do java - java.lang.Object 
   • Strings;
   • Outros tipos tipo de classe instanciável 
