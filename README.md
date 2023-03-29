@@ -49,9 +49,36 @@ Quando um objeto é atribuído para uma variável, aquela variável está na ver
   • Arrays; - Permite armazenar valores de um meso tipo em alocações de memória contínuas. São indenfrificados por índice de números inteiros, que começa do 0 e vai até n-1, onde *n* é o número de elementos disponíveis. Elementos do array devem conter o mesmo tipo de dados. o Array é um tipo de dado de referência pois ele é uma classe do java - java.lang.Object 
   • Strings;
   • Outros tipos tipo de classe instanciável 
-
-
   
+  # Sintaxes de Looping
+  Os looping's são parametros usados para fazer com que uma parte do pragrama seja executada até determinado ponto, que é definido por um condição.
+  Temos 3 tipos de looping, esses são:
+  • While;
+  • Do While;
+  • For;
+  
+  ##### While
+  O Loop While funciona de forma booleana, enquanto tal condição especifica existir, ele continua sendo executado.
+  Sintaxe:
+  while (condição) {
+  // código a ser executado
+  }
+  
+  ##### Do While
+  A diferença entre esse loop e o loop anterior, é que esse executa pelo menos uma vez o programa, antes de checar a condição, já que a sintaxe "while" está no final     do programa, como um fechamento do "Do".
+  Sintaxe:
+  do{
+  // código a ser executado
+  } while (condição);
+  
+  ##### For
+  O For é tecnicamente uma forma compacta do "Do While", já que todo o funcionamento se encontra no inicio da sintaxe.
+  Sintaxe:
+  for (inicialização; condição; incr / decr) {
+  // código a ser executado
+  }
+  
+  Sempre lembrando que cada um atende certa necessidade, então sempre analise a situação para saber qual usar.
   
 Referências:
 https://tdsa2014.blogspot.com/2014/05/tipos-de-dados-primitivos-e-de.html
@@ -68,6 +95,15 @@ https://www.devmedia.com.br/tipos-de-dados-por-valor-e-por-referencia-em-java/25
 
 #### Condicional
 https://www.computersciencemaster.com.br/estruturas-condicionais-if-else-lacos-de-repeticao-while-for-em-java/
+
+#### Looping
+https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjPhMrckoL-AhWoBLkGHZpIDeoQFnoECAkQAQ&url=https%3A%2F%2Fwww.javatpoint.com%2Fpt%2Floops-em-java&usg=AOvVaw1iEFAkqgCXLkm3mP8MXeEB
+
+https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjPhMrckoL-AhWoBLkGHZpIDeoQFnoECAoQAQ&url=https%3A%2F%2Fblog.betrybe.com%2Ffor-java%2F&usg=AOvVaw3MyVi4bGhhoyVkz5FqVY2Q
+
+https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjPhMrckoL-AhWoBLkGHZpIDeoQFnoECDUQAQ&url=https%3A%2F%2Fwww.techiedelight.com%2Fpt%2Fwhile-loop-do-while-loop-java%2F&usg=AOvVaw2kvp-UC7SnS0p06L8afE2Z
+
+
 
 
   
