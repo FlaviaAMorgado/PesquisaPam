@@ -1,9 +1,9 @@
 # PesquisaPam
  Tipos de dados do Java, Sintaxe do Looping Java, Condicional Java
 
-## Tipos de Dados:
+# Tipos de Dados:
 
-## Dados Primitivos
+# Dados Primitivos
  Os dados primitivos funcionam da seguinte maneira; quando se declara uma variável de um tipo primitivo não será possível colocar outro tipo de dado nessa variável. Por esemplo, se você colocar uma variável como int, você só poderá colocar valores int nessa variável.
  
 No Java nós temos 8 tipos de dados primitivos. São esses:
