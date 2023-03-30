@@ -50,7 +50,7 @@ Quando um objeto é atribuído para uma variável, aquela variável está na ver
   - Strings;
   - Outros tipos tipo de classe instanciável 
   
-  #Condicional
+  # Condicional
   
   ### Sintaxes de Condicional
   
