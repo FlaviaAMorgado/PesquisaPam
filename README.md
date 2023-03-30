@@ -57,7 +57,7 @@ Quando um objeto é atribuído para uma variável, aquela variável está na ver
   A condicional do Java é bem parecida com a que já usamos no c# e a sintaxe da condicional é a mesma.
   -If e Else;
   
-  ###Estrutura da condional 
+  ### Estrutura da condional 
   ***if( condição ) {
 	    // ação se a condição for verdadeira
   }
@@ -67,7 +67,7 @@ Quando um objeto é atribuído para uma variável, aquela variável está na ver
   
   Vamos aplicar em um exemplo, com códigos! Veja a seguir:
   
-   -Programa para verificar se o usuário é maior de idade
+   - Programa para verificar se o usuário é maior de idade
    
  ***public class Teste{
 	     public static void main(String Args[]){
