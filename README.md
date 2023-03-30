@@ -50,6 +50,39 @@ Quando um objeto é atribuído para uma variável, aquela variável está na ver
   - Strings;
   - Outros tipos tipo de classe instanciável 
   
+  #Condicional
+  
+  ### Sintaxes de Condicional
+  
+  A condicional do Java é bem parecida com a que já usamos no c# e a sintaxe da condicional é a mesma.
+  -If e Else;
+  
+  ###Estrutura da condional 
+  ***if( condição ) {
+	    // ação se a condição for verdadeira
+  }
+  else{
+    	// ação se a condição for falsa
+  }***
+  
+  Vamos aplicar em um exemplo, com códigos! Veja a seguir:
+  
+   -Programa para verificar se o usuário é maior de idade
+   
+ ***public class Teste{
+	     public static void main(String Args[]){
+		      int idade = 19;
+		        if (idade >= 18 ){
+			          System.out.println("Você é maior de idade!");
+		        }
+          else{
+			          System.out.println("Você é nem pode dirigir ainda :)");
+		         }
+     	}
+ }***
+   
+   
+  
   # Sintaxes de Looping
   Os looping's são parametros usados para fazer com que uma parte do pragrama seja executada até determinado ponto, que é definido por um condição.
   Temos 3 tipos de looping, esses são:
