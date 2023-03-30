@@ -134,7 +134,7 @@ livroBancosDados = 56.75;
   
   Sempre lembrando que cada um atende certa necessidade, então sempre analise a situação para saber qual usar.
   
-Referências:
+## Referências:
 https://tdsa2014.blogspot.com/2014/05/tipos-de-dados-primitivos-e-de.html
 
 https://www.javatpoint.com/pt/tipo-de-dado-em-java#:~:text=Existem%20dois%20tipos%20de%20dados,Incluem%20classes%2C%20interfaces%20e%20arrays
@@ -149,6 +149,11 @@ https://www.devmedia.com.br/tipos-de-dados-por-valor-e-por-referencia-em-java/25
 
 #### Condicional
 https://www.computersciencemaster.com.br/estruturas-condicionais-if-else-lacos-de-repeticao-while-for-em-java/
+
+https://www.devmedia.com.br/estruturas-condicionais-em-java/21135
+
+http://www.bosontreinamentos.com.br/java/estrutura-de-decisao-condicional-if-em-java/
+
 
 #### Looping
 https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjPhMrckoL-AhWoBLkGHZpIDeoQFnoECAkQAQ&url=https%3A%2F%2Fwww.javatpoint.com%2Fpt%2Floops-em-java&usg=AOvVaw1iEFAkqgCXLkm3mP8MXeEB
