@@ -52,7 +52,7 @@ Quando um objeto é atribuído para uma variável, aquela variável está na ver
   
   # Condicional
   
-  ### Sintaxes de Condicional
+  ## Sintaxes de Condicional
   
   A condicional do Java é bem parecida com a que já usamos no c# e a sintaxe da condicional é a mesma.
   -If e Else;
@@ -80,6 +80,27 @@ Quando um objeto é atribuído para uma variável, aquela variável está na ver
 		         }
      	}
  }***
+   
+ ## Condicional Encadeado
+   
+double livroLinux;
+double livroBancosDados;
+livroLinux = 78.60;
+livroBancosDados = 56.75;
+
+	double total = livroLinux + livroBancosDados;
+	System.out.println("O preço total é " + total );
+
+         if (total < 120.00 ) {
+          System.out.println("O preço está bom!");
+	}
+   	else if (total > 180.00 ){
+    	System.out.println("Livros muito caros!");
+	}	
+	else {
+    	System.out.println("Preço razoável.");
+	}
+   
    
    
   # Looping
