@@ -29,7 +29,7 @@ Temos apenas 2 valores
 Temos 2 subdivisões 
   -	Integrais;
   -	Ponto Flutuante;
-  Integrais 
+ ##### Integrais 
   -	byte - possui 1 byte de informação ou 8 bits;
   -	short - possui 2 bytes de informação ou 16 bits;
   -	int - possui 4 bytes de informação ou 32 bits;
