@@ -82,8 +82,8 @@ Quando um objeto é atribuído para uma variável, aquela variável está na ver
  }***
    
    
-  
-  # Sintaxes de Looping
+  # Looping
+  ## Sintaxes de Looping
   Os looping's são parametros usados para fazer com que uma parte do pragrama seja executada até determinado ponto, que é definido por um condição.
   Temos 3 tipos de looping, esses são:
   - While;
