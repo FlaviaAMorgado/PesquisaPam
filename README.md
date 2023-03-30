@@ -47,17 +47,17 @@ Quando um objeto é atribuído para uma variável, aquela variável está na ver
 
 ##### Tipos de dados: 
   - Arrays; - Permite armazenar valores de um meso tipo em alocações de memória contínuas. São indenfrificados por índice de números inteiros, que começa do 0 e vai até n-1, onde *n* é o número de elementos disponíveis. Elementos do array devem conter o mesmo tipo de dados. o Array é um tipo de dado de referência pois ele é uma classe do java - java.lang.Object 
-  - Strings;
+  - Strings; - Comporta até 2 bilhões de caracteres; Armazena uma sequência de caracteres, um objeto String é imutável, o que significa que o texto que ele carrega nunca é alterado.
   - Outros tipos tipo de classe instanciável 
   
   # Condicional
   
-  ## Sintaxes de Condicional
+  ### Sintaxes de Condicional
   
   A condicional do Java é bem parecida com a que já usamos no c# e a sintaxe da condicional é a mesma.
   -If e Else;
   
-  ### Estrutura da condional 
+  #### Estrutura da condional 
  	 ***if( condição ) {
 	    // ação se a condição for verdadeira
  	 }
@@ -81,7 +81,7 @@ Quando um objeto é atribuído para uma variável, aquela variável está na ver
      		     }
 		 }***
    
- ## Condicional Encadeado
+ ### Condicional Encadeado
    
 double livroLinux;
 double livroBancosDados;
@@ -104,7 +104,7 @@ livroBancosDados = 56.75;
    
    
   # Looping
-  ## Sintaxes de Looping
+  ### Sintaxes de Looping
   Os looping's são parametros usados para fazer com que uma parte do pragrama seja executada até determinado ponto, que é definido por um condição.
   Temos 3 tipos de looping, esses são:
   - While;
