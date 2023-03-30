@@ -58,28 +58,28 @@ Quando um objeto é atribuído para uma variável, aquela variável está na ver
   -If e Else;
   
   ### Estrutura da condional 
-  ***if( condição ) {
+ 	 ***if( condição ) {
 	    // ação se a condição for verdadeira
-  }
-  else{
+ 	 }
+ 	 else{
     	// ação se a condição for falsa
-  }***
+  	}***
   
   Vamos aplicar em um exemplo, com códigos! Veja a seguir:
   
    - Programa para verificar se o usuário é maior de idade
    
- ***public class Teste{
-	     public static void main(String Args[]){
-		      int idade = 19;
-		        if (idade >= 18 ){
+ 		***public class Teste{
+	   	     public static void main(String Args[]){
+		     	 int idade = 19;
+		        	if (idade >= 18 ){
 			          System.out.println("Você é maior de idade!");
-		        }
-          else{
+		       		 }
+          			else{
 			          System.out.println("Você é nem pode dirigir ainda :)");
 		         }
-     	}
- }***
+     		     }
+		 }***
    
  ## Condicional Encadeado
    
