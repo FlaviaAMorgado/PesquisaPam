@@ -179,6 +179,19 @@ https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ve
 https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjPhMrckoL-AhWoBLkGHZpIDeoQFnoECDUQAQ&url=https%3A%2F%2Fwww.techiedelight.com%2Fpt%2Fwhile-loop-do-while-loop-java%2F&usg=AOvVaw2kvp-UC7SnS0p06L8afE2Z
 
 
+#### Android Studio
+https://developer.android.com/reference/android/widget/ScrollView
+
+https://uware.com.br/como-usar-o-scrollciew-no-android-studio/
+
+https://developer.android.com/reference/androidx/fragment/app/FragmentContainerView
+
+https://developer.android.com/guide/topics/ui/layout/recyclerview?hl=pt-br
+
+https://developer.android.com/guide/topics/ui/controls/spinner?hl=pt-br
+
+https://jafapps.com.br/spinner-android-studio/?doing_wp_cron=1680286310.6129720211029052734375
+
 
 
   
