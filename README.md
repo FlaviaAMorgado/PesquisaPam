@@ -137,19 +137,47 @@ livroBancosDados = 56.75;
   # Tipos de elementos do Android Studio 
   
   #### Containers
-  ###### - RecyclerView
+  ###### RecyclerView
   O RecyclerViews facilita e torna eficiente a exibição de grandes conjutos de dados. o RecyclerViews recicla elementos individuais. Quando um item vai para fora da tela o RecyclerView reutiliza a visualizações para novos itens que aparecerem na tela. Isso melhora muito o desempenho, aperfeiçoando a capacidade e reduzindo o gasto de energia de um app.
   
-  ###### - Spinner 
+  ###### Spinner 
   O Spinner é um elemento que ofornece um menu suspenso, com todos os valores disponíveis.
   
-  ###### - FragmentContainerView
+  ######  FragmentContainerView
  É uma exibição personalizada que estende o FrameLayout. Mas, ao contrário de outros ViewGroups, aceita apenas exibições de fragmentos. Ele também oferece suporte aos atributos <fragment>, mas oferece mais flexibilidade de transações Fragment e também possui recursos adicionais para coordenar o comportamento do fragmento.
  
- ###### - ScrollView
+ ###### ScrollView
  Permite que a Hierarquia de Visualização colocada dentro dela seja rolada verticalmente (caso seja necessário usar a rolagem horizontal usar 'HorizontalScrollView). 
  
+  		java.lang.Object
+  		 ↳ android.view.View
+ 	   		↳ android.view.ViewGroup
+ 	 	  	   ↳ android.widget.FrameLayout
+ 	 	 	      ↳ android.widget.ScrollView
+			      
+ #### Helpers 
+ ##### Group 
+  Controla a visibilidade de um conjunto de widgets referenciados. A visibilidade do grupo será aplicada aos widgets refenciados. É uma maneira de conveniente de ocultar ou exibir facilmente um conjuntos de widgets sem precisar manter esse conjunti programaticamente.
   
+ ##### Barrier
+  Semelhante a uma diretriz, uma barreir é uma linha invisível, qual você pode restringir as visualizações. Mas uma barreira não define sua própria posição; em vez disso, a posição da barreira se move com base na posição das visualizações contidas nela. Isso é útil quando você deseja restringir uma visualização a um conjunto de visualizações, em vez de a uma visualização específica.
+  Uma barreir faz referência a vários widgets como entrada e cria uma diretriz virtual com base no widget mais extremo do lado especificado. *Por exemplo, uma barreira esquerda se alinhará à esquerda de todas as visualizações referenciadas.*
+  
+  ##### Guideline
+   Permite que vários widgtes sejam posicionados facilmente a partir de uma Guideline ou permitindo o comportamento reativo do layout usando o posicionamento percentual. Uma Guideline/ Diretriz pode ser horizontal ou vertical; Uma guideline pode ser posicionada de três maneiras diferentes: 
+   
+   - especificando uma distância fixa da esquerda ou da parte superior de um layout  	    (layout_constraintGuide_begin)
+   - especificando uma distância fixa da direita ou da parte inferior de um layout 	  (layout_constraintGuide_end)
+   - especificando uma porcentagem da largura ou altura de um layout             	 (layout_constraintGuide_percent)
+ 
+ #### Google 
+  ##### MapView 
+   Exibe um mapa a (com dados obtidos do serviço do Google Maps). Quando está em foco, ele captura teclas e gestos de toque para mover o mapa. Precisa-se adquirir um GoogleMap usando "getMapAsync(OnMapReadyCallback)". O MapView inicializa automaticamente o sistema de mapas e visualizações. 
+  
+#### Legacy 
+ ##### ListView
+   Exibe uma coleção de visualizações com rolagem vertical, onde cada visualização está posicionada uma abaixo da outra visualização na lista. Para um desempenho mais moderno, flexível e abordagem para exibir listas, use RecyclerView.
+ 
 ## Referências:
 https://tdsa2014.blogspot.com/2014/05/tipos-de-dados-primitivos-e-de.html
 
@@ -191,6 +219,21 @@ https://developer.android.com/guide/topics/ui/layout/recyclerview?hl=pt-br
 https://developer.android.com/guide/topics/ui/controls/spinner?hl=pt-br
 
 https://jafapps.com.br/spinner-android-studio/?doing_wp_cron=1680286310.6129720211029052734375
+
+https://developer.android.com/reference/android/widget/ListView
+
+https://developers.google.com/maps/documentation/android-sdk/reference/com/google/android/libraries/maps/MapView?hl=pt-br
+
+https://developer.android.com/reference/androidx/constraintlayout/widget/Guideline
+
+https://developer.android.com/reference/androidx/constraintlayout/widget/Group
+
+https://stackoverflow.com/questions/47114672/what-is-difference-between-barrier-and-guideline-in-constraint-layout
+
+
+
+
+
 
 
 
