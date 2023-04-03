@@ -137,16 +137,16 @@ livroBancosDados = 56.75;
   # Tipos de elementos do Android Studio 
   
   #### Containers
-  ###### RecyclerView
+  ##### RecyclerView
   O RecyclerViews facilita e torna eficiente a exibição de grandes conjutos de dados. o RecyclerViews recicla elementos individuais. Quando um item vai para fora da tela o RecyclerView reutiliza a visualizações para novos itens que aparecerem na tela. Isso melhora muito o desempenho, aperfeiçoando a capacidade e reduzindo o gasto de energia de um app.
   
-  ###### Spinner 
+  ##### Spinner 
   O Spinner é um elemento que ofornece um menu suspenso, com todos os valores disponíveis.
   
-  ######  FragmentContainerView
+  #####  FragmentContainerView
  É uma exibição personalizada que estende o FrameLayout. Mas, ao contrário de outros ViewGroups, aceita apenas exibições de fragmentos. Ele também oferece suporte aos atributos <fragment>, mas oferece mais flexibilidade de transações Fragment e também possui recursos adicionais para coordenar o comportamento do fragmento.
  
- ###### ScrollView
+ ##### ScrollView
  Permite que a Hierarquia de Visualização colocada dentro dela seja rolada verticalmente (caso seja necessário usar a rolagem horizontal usar 'HorizontalScrollView). 
  
   		java.lang.Object
