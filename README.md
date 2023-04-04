@@ -161,7 +161,7 @@ livroBancosDados = 56.75;
   A caixa de seleção é constituida por opções que possuem dois estados: assinalado e não assinalado.
  
   ##### RadioButton
-  São as opções da CheckBox ,porém, de forma individual.
+  São as opções da CheckBox, porém, de forma individual.
  
   ##### Switch
   Um Switch é um widget de alternância de dois estados. Os usuários podem arrastar o botão "polegar" para frente e para trás para selecionar uma das duas opções ou simplesmente tocar no botão para alternar entre as opções.
