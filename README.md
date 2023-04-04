@@ -154,12 +154,30 @@ livroBancosDados = 56.75;
   ##### Button
   É um elemento no qual o usuario pode clicar para executar uma ação.
   
+  ##### Chip
+  Chips são elementos compactos que representam um atributo, texto, entidade ou ação. Eles permitem que os usuários insiram informações, selecionem uma opção, filtrem conteúdo ou acionem uma ação.
+   
+  ##### CheckBox
+  A caixa de seleção é constituida por opções que possuem dois estados: assinalado e não assinalado.
+ 
+  ##### RadioButton
+  São as opções da CheckBox ,porém, de forma individual.
+ 
+  ##### Switch
+  Um Switch é um widget de alternância de dois estados. Os usuários podem arrastar o botão "polegar" para frente e para trás para selecionar uma das duas opções ou simplesmente tocar no botão para alternar entre as opções.
+  
   #### Widgets
-  Widgets são como visualizações rapidas de dados e funcionalidades mais importantes de um app. Como por exemplo o ImageView, que é usado para a visualização de imagens.
+  Widgets são como visualizações rapidas de dados e funcionalidades mais importantes de um app. Como por exemplo o ImageView, que é usado para a visualização de     imagens.
 	
- #### Layouts
- ##### ConstraintLayout
- Usado para posicionar um widget de forma mais flexivel.
+  #### Layouts
+  ##### ConstraintLayout
+  Usado para posicionar um widget de forma mais flexivel.
+  
+  ##### LinearLayout
+  Um layout que organiza outras exibições horizontalmente em uma única coluna ou verticalmente em uma única linha.
+  
+  ##### Frame Layout
+  FrameLayout é projetado para bloquear uma área na tela para exibir um único item. 
  
   #### Containers
   ##### RecyclerView
@@ -270,6 +288,22 @@ https://developer.android.com/guide/topics/appwidgets/overview?hl=pt-br
 https://developer.android.com/reference/android/widget/ImageView
 	
 https://developer.android.com/reference/androidx/constraintlayout/widget/ConstraintLayout
+	
+https://developer.android.com/reference/android/widget/FrameLayout
+	
+https://developer.android.com/reference/android/widget/LinearLayout
+	
+https://developer.android.com/reference/android/widget/Switch
+	
+https://developer.android.com/reference/android/widget/ToggleButton
+	
+https://developer.android.com/reference/android/widget/RadioButton
+	
+https://developer.android.com/reference/android/widget/CheckBox
+	
+https://developer.android.com/reference/android/widget/Button#inherited-xml-attributes
+	
+
 
 
 
