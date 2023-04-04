@@ -136,6 +136,31 @@ livroBancosDados = 56.75;
   
   # Tipos de elementos do Android Studio 
   
+  #### Text
+  ##### TextView
+  É um elemento de interface que exibe um texto para o usuario. Para permitir que o usuario modifique o texto, consulte EditText.
+  
+  ##### AutoCompleteAutoView
+  Exibe sugestões de conclusões enquanto o usuario digita. A lista de sugestões aparece em um menu suspenso, no qual o usuario pode selecionar uma das sugestões. A lista de sugestões só aparece depois que um numero limite de caracteres determinados é digitado.
+  
+  ##### MultiAutoComplete
+  É um extensão do AutoCompleteAutoView, com a diferença que este mostra sugestões para o substring (uma parte de um string completo, como uma palavra em uma frase).
+  
+  ##### CheckedTextView
+  Uma extensão para TextView que oferece suporte à interface Checkable e exibições. É usado principalmente em um ListView onde queremos mostrar qual item está selecionado ou não.
+  ListView: Exibe uma coleção de exibições com rolagem vertical, onde cada exibição é posicionada imediatamente abaixo da exibição anterior na lista.
+  
+  #### Button
+  ##### Button
+  É um elemento no qual o usuario pode clicar para executar uma ação.
+  
+  #### Widgets
+  Widgets são como visualizações rapidas de dados e funcionalidades mais importantes de um app. Como por exemplo o ImageView, que é usado para a visualização de imagens.
+	
+ #### Layouts
+ ##### ConstraintLayout
+ Usado para posicionar um widget de forma mais flexivel.
+ 
   #### Containers
   ##### RecyclerView
   O RecyclerViews facilita e torna eficiente a exibição de grandes conjutos de dados. o RecyclerViews recicla elementos individuais. Quando um item vai para fora da tela o RecyclerView reutiliza a visualizações para novos itens que aparecerem na tela. Isso melhora muito o desempenho, aperfeiçoando a capacidade e reduzindo o gasto de energia de um app.
@@ -229,6 +254,22 @@ https://developer.android.com/reference/androidx/constraintlayout/widget/Guideli
 https://developer.android.com/reference/androidx/constraintlayout/widget/Group
 
 https://stackoverflow.com/questions/47114672/what-is-difference-between-barrier-and-guideline-in-constraint-layout
+	
+https://abhiandroid.com/ui/checkedtextview
+	
+https://developer.android.com/reference/android/widget/CheckedTextView
+	
+https://developer.android.com/reference/android/widget/MultiAutoCompleteTextView
+	
+https://developer.android.com/reference/android/widget/AutoCompleteTextView
+	
+https://developer.android.com/reference/android/widget/TextView
+	
+https://developer.android.com/guide/topics/appwidgets/overview?hl=pt-br
+	
+https://developer.android.com/reference/android/widget/ImageView
+	
+https://developer.android.com/reference/androidx/constraintlayout/widget/ConstraintLayout
 
 
 
