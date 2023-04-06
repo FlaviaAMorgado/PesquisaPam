@@ -1,5 +1,7 @@
 # PesquisaPam
  Tipos de dados do Java, Sintaxe do Looping Java, Condicional Java
+ 
+ Flavia Morgado e Daniel Biondi
 
 # Tipos de Dados:
 
